@@ -21,7 +21,8 @@ body > div {
     font-weight: 900;
 }
 
-.header-links {
+.header-links,
+.hero-secondary {
     font-size: 18px;
     color: #E5E7EB;     
 }
@@ -31,4 +32,39 @@ ul {
     padding: 0px;
     display: flex;
     gap: 25px;
+}
+
+.first-quarter {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+img {
+    max-width: 400px;
+    max-height: auto;
+}
+
+.hero {
+    padding-right: 50px;
+    flex: 0 1 auto;
+    max-width: 500px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    margin-top: 12px;
+    background-color: #3882F6;
+    font-size: 16px;
+    padding: 5px 25px;
+    color: #f9faf8;
+    font-weight: 900;
+    border-radius: 8px;
 }
