@@ -8,7 +8,6 @@ body {
 }
 
 body > div {
-    border: 2px solid black;
     width: 1600px;
 }
 
@@ -163,4 +162,11 @@ p {
     font-weight: bold;
     border-color: #E5E7EB;
     border-width: 3px;
+}
+
+.footer {
+    font-size: 20px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 40px 0px;
 }
