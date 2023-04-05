@@ -134,3 +134,33 @@ button {
     font-size: 18px;
     text-align: right;
 }
+
+.fourth-quarter {
+    display: flex;
+    justify-content: center;
+    background-color: #f9faf8;
+}
+
+.call {
+    background-color: #3882F6;
+    font-size: 26px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #E5E7EB;
+    padding: 50px 0px;
+    margin: 100px 0px;
+    border-radius: 10px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.fourth-quarter button {
+    font-size: 18px; 
+    font-weight: bold;
+    border-color: #E5E7EB;
+    border-width: 3px;
+}
