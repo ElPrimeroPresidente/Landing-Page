@@ -3,12 +3,13 @@ body {
     flex-direction: column;
     font-family: 'roboto';
     background-color: black;
-    align-items: center;
+    align-items: center; 
+    flex-shrink: 1;
 }
 
 body > div {
     border: 2px solid black;
-    width: 1200px;
+    width: 1600px;
 }
 
 .header {
@@ -108,4 +109,28 @@ button {
     height: 150px;
     border-radius: 15px;
     margin-bottom: 10px;
+}
+
+.third-quarter {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+.quote, .author {
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 18px;
+    text-align: right;
 }
