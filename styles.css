@@ -2,13 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'roboto';
-    background-color: black;
-    align-items: center; 
+    background-color: #1F2937;
     flex-shrink: 1;
-}
-
-body > div {
-    width: 1600px;
 }
 
 .header {
@@ -43,6 +38,8 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 100px 0px;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 img {
@@ -51,7 +48,6 @@ img {
 }
 
 .hero {
-    padding-right: 50px;
     flex: 0 1 auto;
     max-width: 500px;
 }
@@ -62,7 +58,7 @@ img {
     color: #f9faf8;
 }
 
-button {
+.hero-button {
     margin-top: 12px;
     background-color: #3882F6;
     font-size: 16px;
@@ -71,8 +67,7 @@ button {
     font-weight: 900;
     border-radius: 8px;
     border-color: #3882F6;
-    border-style: solid;
-    
+    border-style: solid;   
 }
 
 .second-quarter {
@@ -88,10 +83,12 @@ button {
     font-weight: 900;
     color: #1F2937;
     margin: 50px 0px;
+    text-align: center;
 }
 
 .images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 35px;
 }
@@ -113,13 +110,8 @@ button {
 .third-quarter {
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 150px 0px;
-}
-
-.quote, .author {
-    width: 800px;
+    justify-content: center;
 }
 
 .quote {
@@ -127,15 +119,20 @@ button {
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
+    max-width: 800px;
+    padding: 150px 0px;
 }
 
 .author {
     font-size: 18px;
-    text-align: right;
+    text-align: end;
+    max-width: 800px;
+    padding-right: 5px;
 }
 
 .fourth-quarter {
     display: flex;
+    flex-direction: wrap;
     justify-content: center;
     background-color: #f9faf8;
 }
@@ -145,11 +142,13 @@ button {
     font-size: 26px;
     width: 1000px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     color: #E5E7EB;
     padding: 50px 0px;
     margin: 100px 0px;
     border-radius: 10px;
+    gap: 10px;
 }
 
 p {
@@ -157,11 +156,22 @@ p {
     margin: 0px;
 }
 
+.call-text {
+    padding: 0px 10px;
+}
+
 .fourth-quarter button {
     font-size: 18px; 
     font-weight: bold;
     border-color: #E5E7EB;
     border-width: 3px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-weight: 900;
+    border-radius: 8px;
+    border-style: solid;
+    color: #E5E7EB;
+    flex: 0 0 auto;
 }
 
 .footer {
